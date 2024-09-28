@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#movementArea {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(190, 81, 18);
+  position: relative;
+}
+
+#gifPokemon {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("../gif/c188f43bb256061a4f624592528e09ea_w200.gif");
+  background-size: cover;
+  border: none;
+  cursor: pointer;
+}
